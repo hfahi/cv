@@ -298,8 +298,7 @@ body {
     }
 
     .bloc-sider {
-        margin-left: 3rem;
-        margin-right: 3rem;
+        margin: 0;
     }
 
     .bloc-section-title .fas {
@@ -311,6 +310,13 @@ body {
         font-size: 1.9rem;
     }
 
+}
+@media (min-width: 320px){
+
+   .bloc-sider {
+
+    margin-right: -63px;
+   }
 }
 
 @media (min-width: 992px){
@@ -371,6 +377,8 @@ body {
     }
 
 }
+
+
 
 @media (min-width:1200px) {
 
